@@ -1,3 +1,8 @@
+Forside
+Titelblad
+	Synopsis
+Forord
+Indholdsfortegnelse
 indledning:
 	Motivation til at arbejde med emnet fra skolereformen 
 	Initierende problem
@@ -10,10 +15,14 @@ Problemanalysen:
 		Adskil lærere og skemaplanlæggere
 	Brugerovervejelser
 	State of the art (nuværende systemer)
+Afgrænsning
+Problemformulering
 Problemløsning:
 	Teori
 		Genetiske algoritmer
 	Faktorer vi skal tage højde for
 	Udvikling af programmet
 Konklusion
+Kildeliste
+Bilag
 
