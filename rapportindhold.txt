@@ -1,0 +1,9 @@
+indledning:
+	Motivation til at arbejde med emnet fra skolereformen 
+	Initierende problem
+Problemanalysen:
+	Beskrivelse af skolereformen og dens betydning
+	Lovgivning og regler for skemalægning
+	Interessenter (hvem skal vi snakke med?)
+	Beskrivelse af cases og interviews (her snakker vi med dem)
+	
