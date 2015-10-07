@@ -5,5 +5,15 @@ Problemanalysen:
 	Beskrivelse af skolereformen og dens betydning
 	Lovgivning og regler for skemalægning
 	Interessenter (hvem skal vi snakke med?)
+		(Andre på markedet?)
 	Beskrivelse af cases og interviews (her snakker vi med dem)
-	
+		Adskil lærere og skemaplanlæggere
+	Brugerovervejelser
+	State of the art (nuværende systemer)
+Problemløsning:
+	Teori
+		Genetiske algoritmer
+	Faktorer vi skal tage højde for
+	Udvikling af programmet
+Konklusion
+

@@ -1,0 +1,6 @@
+Ting at tage højde for:
+	Lokaler
+	Elever i ^ lokaler
+	Valgfag :(
+		En lærer kan kun være eet sted af gangen, men en klasse kan godt være delt op. Det vil sige at man skal sætte 3 lærere på een klasse.
+		
