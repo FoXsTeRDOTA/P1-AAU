@@ -1,0 +1,74 @@
+Til skemalægger:
+	
+	Kontaktoplysninger (hvis de giver lov)
+	
+	Oplysninger om skolen:
+		Størrelse
+		Klasser
+		Lærere
+		Elever
+		Lokaler
+		Speciallokaer
+			Fysik/kemi
+			Idrætsområde
+			Billedkunst
+			Sløjd
+			Musik
+			Hjemkundskab
+			Håndarbejde
+		Valgfag, hvilke har I?
+
+	Hvad er jeres holdning til jeres skoles nuværende procedure angående skemalægning?
+
+	Hvor lang tid bruger I på at lave skemaer? (før og efter reform?)
+
+	Bruger skolen faste skemaer eller ugentlige?
+
+	Hvor tit skal der ændres i skemaer?
+
+	Er der faste lærer til hver klasse? Hvor længe beholder man samme lærer?
+
+	Komfortabel med at arbejde i CLI?
+
+	Har I faste lokaler?
+
+	Hvordan håndterer i lokaler? (f.eks. ved store klasser?, hvad hvis 2 skal være i fysik-lokalet?)
+
+	Hvordan håndterer I lærernes tid på skolen? (i form af forberedelsestid)
+
+	Hvor mange timer om året pr lærer? pr elev? (Har skolen data?)
+
+	Hvilket system bruger I til håndtering eller udarbejdning af skemaer?
+
+	Hvordan samarbejder det med andre systemer? Kan du importere andre filer?
+
+	Fremvisning af programmet?
+
+	Prioritering af fag efter tid på dagen?
+
+	Prioritering af læreres ønsker?
+
+	Vikarhåndtering, bliver det sat ind i systemet?
+
+	Bliver en vikartime regnet som en normal time? (uddannelsesniveauet er jo ikke det samme)
+
+	Findes buffer-timer? 
+
+	Hvordan håndterer man timer der ikke finder sted?
+
+	Er lektiecafe på skemaet? Skal der være en lærer til stede (en lærer pr klasse)?
+
+
+
+Til lærer:
+	Hvordan ønsker du at tiden på skolen bruges (hvornår forberedelse og hvornår undervisning)
+
+	Hvis vi laver systemet, hvilke parametre synes I så at vi skal tage højde for?
+
+	Kopier af skemaer?
+
+	Kopier af skemaer for elever?
+
+	Hvor mange klasser er du lærer for?
+
+	Hvordan mener du at skemalægningen kan forbedres?
