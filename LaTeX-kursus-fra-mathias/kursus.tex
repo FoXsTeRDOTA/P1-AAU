@@ -1,0 +1,72 @@
+\documentclass[hidelinks, 12pt]{article}
+
+\makeatletter
+\setlength{\@fptop}{0pt}
+\makeatother
+
+\makeatletter
+
+\newcommand\footnoteref[1]{\protected@xdef\@thefnmark{\ref{#1}}\@footnotemark}
+\makeatother
+\usepackage{graphicx}
+\input{preamble.tex}
+\newcommand{\tabitem}{~~\llap{\textbullet}~~}
+\begin{document}
+	
+	\title{\LaTeX\, minikursus}
+	\author{Mathias Jakobsen}
+	\date{\today}
+	\maketitle %Sæt infoen ovenfra ind i dokumentet
+	
+	\section{Overskrift}
+	\label{label_til_at_kende_afsnittet}
+	Denne tekst er en del af afsnit \ref{label_til_at_kende_afsnittet}. %\ref indsætter afsnittets tal.
+	\subsection{Underoverskrift}
+	\label{endnu_en_label_til_dette_afsnit}
+	Denne tekst er en del af underafsnittet \ref{endnu_en_label_til_dette_afsnit}.
+	\subsubsection{Under-underoverskrift}
+	You get the point.
+	\begin{itemize}
+		\item Sådan
+		\item laver
+		\item man
+		\item en
+		\item liste
+	\end{itemize}
+	
+	Vi kan skrive med \textit{kursiv} her mellem listerne!
+
+	Dog hvis vi vil skrive flotte citater foregår det med disse ``flotte tegn'' frem for de normale kedelige citationstegn.
+
+	\begin{enumerate}
+		\item Sådan
+		\item laver
+		\item man
+		\item en
+		\item numereret
+		\item liste
+	\end{enumerate}
+
+	\begin{description}
+		\item[Sidst] men ikke mindst har vi en liste der er god til begrebsforklaringer. Wuhuu, den er vi glad for.
+		\item[Begrebsforklaring] er en meget smuk ting, og vi er meget glade for at vi har muligheden for at gøre det i \LaTeX.
+	\end{description}
+
+	\section*{Det skønne matematik} % "*" fjerner numereringen i dokumentet.
+	Matematiske udtryk skrives således: $x = 4$, hvis de skal have deres egen linje er det $$ x = 4 $$. Hvis udtrykket skal nummereres bliver det:
+	\begin{equation}
+		c = \int^{a}_{b} x^2  dx
+	\end{equation}
+
+	\begin{figure}[t!]
+    	\centering
+    	\includegraphics[width=0.3\textwidth]{../Billeder/aaulogo}
+    	\captionsource{Billedets titel}{\url{http://www.kilde.til.billede.com}}
+    	\label{label til billede}
+	\end{figure}
+
+	Refference til en bog \cite{bog}
+
+	\bibliographystyle{plain}
+	\bibliography{../Rapport/sources}
+\end{document}
