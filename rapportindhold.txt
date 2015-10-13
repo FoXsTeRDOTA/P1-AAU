@@ -1,4 +1,4 @@
-Forside
+﻿Forside
 Titelblad
 	Synopsis
 Forord
@@ -14,7 +14,7 @@ Problemanalysen:
 	Beskrivelse af cases og interviews (her snakker vi med dem)
 		Adskil lærere og skemaplanlæggere
 	Brugerovervejelser
-	State of the art (nuværende systemer)
+	State of the art (nuværende systemer) - udland?
 Afgrænsning
 Problemformulering
 Problemløsning:
