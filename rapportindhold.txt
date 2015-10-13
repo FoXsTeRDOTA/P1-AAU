@@ -22,6 +22,7 @@ Problemløsning:
 		Genetiske algoritmer
 	Faktorer vi skal tage højde for
 	Udvikling af programmet
+	Programstruktur
 Konklusion
 Kildeliste
 Bilag
