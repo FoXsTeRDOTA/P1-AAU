@@ -1,24 +1,6 @@
 Til skemalægger:
-	
-	Kontaktoplysninger (hvis de giver lov)
-	
-	Oplysninger om skolen:
-		Størrelse
-		Klasser
-		Lærere
-		Elever
-		Lokaler
-		Speciallokaer
-			Fysik/kemi
-			Idrætsområde
-			Billedkunst
-			Sløjd
-			Musik
-			Hjemkundskab
-			Håndarbejde
-		Valgfag, hvilke har I?
 
-	Hvad er jeres holdning til jeres skoles nuværende procedure angående skemalægning?
+	Hvad er jeres nuværende procedure angående skemalægning?
 
 	Hvor lang tid bruger I på at lave skemaer? (før og efter reform?)
 
@@ -26,13 +8,15 @@ Til skemalægger:
 
 	Hvor tit skal der ændres i skemaer?
 
+	Findes buffer-timer? 
+
+	Hvordan håndterer man timer der ikke finder sted?
+
+	Er lektiecafe på skemaet? Skal der være en lærer til stede (en lærer pr klasse)?
+
 	Er der faste lærer til hver klasse? Hvor længe beholder man samme lærer?
 
-	Komfortabel med at arbejde i CLI?
-
-	Har I faste lokaler?
-
-	Hvordan håndterer i lokaler? (f.eks. ved store klasser?, hvad hvis 2 skal være i fysik-lokalet?)
+	Hvordan håndterer i lokaler? (f.eks. ved store klasser?, hvad hvis 2 skal være i fysik-lokalet? Faste lokaler?)
 
 	Hvordan håndterer I lærernes tid på skolen? (i form af forberedelsestid)
 
@@ -44,31 +28,47 @@ Til skemalægger:
 
 	Fremvisning af programmet?
 
+    Vikarhåndtering, bliver det sat ind i systemet?
+	    Bliver en vikartime regnet som en normal time? (uddannelsesniveauet er jo ikke det samme)
+
+    Komfortabel med at arbejde i CLI?
+
 	Prioritering af fag efter tid på dagen?
 
 	Prioritering af læreres ønsker?
 
-	Vikarhåndtering, bliver det sat ind i systemet?
-
-	Bliver en vikartime regnet som en normal time? (uddannelsesniveauet er jo ikke det samme)
-
-	Findes buffer-timer? 
-
-	Hvordan håndterer man timer der ikke finder sted?
-
-	Er lektiecafe på skemaet? Skal der være en lærer til stede (en lærer pr klasse)?
-
-
+    Kontaktoplysninger (hvis de giver lov)
 
 Til lærer:
 	Hvordan ønsker du at tiden på skolen bruges (hvornår forberedelse og hvornår undervisning)
-
-	Hvis vi laver systemet, hvilke parametre synes I så at vi skal tage højde for?
 
 	Kopier af skemaer?
 
 	Kopier af skemaer for elever?
 
+    Er du tilfreds med dit nuværende skema?
+
 	Hvor mange klasser er du lærer for?
 
 	Hvordan mener du at skemalægningen kan forbedres?
+
+    Hvis vi laver systemet, hvilke parametre synes I så at vi skal tage højde for?
+
+    Kontaktoplysninger (hvis de giver lov)
+
+Mail:
+    Oplysninger om skolen:
+	Størrelse
+	Klasser
+	Lærere
+	Elever
+	Lokaler
+	Speciallokaer
+		Fysik/kemi
+		Idrætsområde
+		Billedkunst
+		Sløjd
+		Musik
+		Hjemkundskab
+		Håndarbejde
+	Valgfag, hvilke har I?
