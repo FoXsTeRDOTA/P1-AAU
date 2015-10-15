@@ -1,0 +1,12 @@
+Initierende problem: 
+	Hvilke udfordringer opstår der i forbindelse skemalægningen i folkeskolen?
+
+Spørgsmål:
+	Hvem har indflydelse på skemalægningen?
+	Hvor mange ressourcer bliver der brugt på det?
+	Hvor mange gange om året bliver skemaet lagt?
+	Hvad sker der hvis en lærer bliver fyret, bliver skemaet så lavet om? 
+	Har skolereformen indført nye udfordringer?
+	Hvilke love har indflydelse på skemalægningen?
+	Er der et politisk ønske om et standardiseret skema? Er skemalæggerne enige i dette? (f.eks. i form af 45 minutters aktivitet hver dag).
+	Hvilke andre IS bliver brugt i øjeblikket? Hvilke systemer skal en løsning være kompatibel med?
