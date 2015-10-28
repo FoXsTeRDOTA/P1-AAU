@@ -1,4 +1,4 @@
-Til skemalægger:
+﻿Til skemalægger:
 
 	Hvad er jeres nuværende procedure angående skemalægning?
 
@@ -8,13 +8,15 @@ Til skemalægger:
 
 	Hvor tit skal der ændres i skemaer?
 
-	Findes buffer-timer? 
+	Hvad er de største udforverdringer med skmelægningen Lærer-resourcer, lokale-resourcer? Eller?	
+
+	Findes buffer-timer? (/Tages der udgandspunkt i, at det reelle timetal er mindre end det skemalagte)? 
 
 	Hvordan håndterer man timer der ikke finder sted?
 
 	Er lektiecafe på skemaet? Skal der være en lærer til stede (en lærer pr klasse)?
 
-	Er der faste lærer til hver klasse? Hvor længe beholder man samme lærer?
+	Er der faste lærere til hver klasse? Hvor længe beholder man samme lærer?
 
 	Hvordan håndterer i lokaler? (f.eks. ved store klasser?, hvad hvis 2 skal være i fysik-lokalet? Faste lokaler?)
 
