@@ -1,58 +1,68 @@
-﻿Til skemalægger:
+Til skemalægger:
 
-	Hvad er jeres nuværende procedure angående skemalægning?
+    Hvad er jeres nuværende procedure angående skemalægning?
 
-	Hvor lang tid bruger I på at lave skemaer? (før og efter reform?)
+    Hvor lang tid bruger I på at lave skemaer? (før og efter reform?)
 
-	Bruger skolen faste skemaer eller ugentlige?
+    Bruger skolen faste skemaer eller ugentlige?
 
-	Hvor tit skal der ændres i skemaer?
+    Hvor tit skal der ændres i skemaer?
 
-	Hvad er de største udforverdringer med skmelægningen Lærer-resourcer, lokale-resourcer? Eller?	
+    Hvad er de største udfordringer med skemalægningen Lærer-ressourcer, lokale-ressourcer? Eller?  
 
-	Findes buffer-timer? (/Tages der udgandspunkt i, at det reelle timetal er mindre end det skemalagte)? 
+    Findes buffer-timer? (/Tages der udgangspunkt i, at det reelle timetal er mindre end det skemalagte)? 
 
-	Hvordan håndterer man timer der ikke finder sted?
+    Hvordan håndterer man timer der ikke finder sted?
 
-	Er lektiecafe på skemaet? Skal der være en lærer til stede (en lærer pr klasse)?
+    Er lektiecafe på skemaet? Skal der være en lærer til stede (en lærer pr klasse)?
 
-	Er der faste lærere til hver klasse? Hvor længe beholder man samme lærer?
+    Er der faste lærere til hver klasse? Hvor længe beholder man samme lærer?
 
-	Hvordan håndterer i lokaler? (f.eks. ved store klasser?, hvad hvis 2 skal være i fysik-lokalet? Faste lokaler?)
+    Hvordan håndterer i lokaler? (f.eks. ved store klasser?, hvad hvis 2 skal være i fysik-lokalet? Faste lokaler?)
 
-	Hvordan håndterer I lærernes tid på skolen? (i form af forberedelsestid)
+    Hvordan håndterer I lærernes tid på skolen? (i form af forberedelsestid)
 
-	Hvor mange timer om året pr lærer? pr elev? (Har skolen data?)
+    Hvor mange timer om året pr lærer? pr elev? (Har skolen data?)
 
-	Hvilket system bruger I til håndtering eller udarbejdning af skemaer?
+    Hvilket system bruger I til håndtering eller udarbejdning af skemaer?
 
-	Hvordan samarbejder det med andre systemer? Kan du importere andre filer?
+    Hvordan samarbejder det med andre systemer? Kan du importere andre filer?
 
-	Fremvisning af programmet?
+    Fremvisning af programmet?
 
     Vikarhåndtering, bliver det sat ind i systemet?
-	    Bliver en vikartime regnet som en normal time? (uddannelsesniveauet er jo ikke det samme)
+        Bliver en vikartime regnet som en normal time? (uddannelsesniveauet er jo ikke det samme)
 
     Komfortabel med at arbejde i CLI?
 
-	Prioritering af fag efter tid på dagen?
+    Prioritering af fag efter tid på dagen?
 
-	Prioritering af læreres ønsker?
+    Prioritering af læreres ønsker?
 
     Kontaktoplysninger (hvis de giver lov)
 
 Til lærer:
-	Hvordan ønsker du at tiden på skolen bruges (hvornår forberedelse og hvornår undervisning)
+    Hvad er din rolle?
 
-	Kopier af skemaer?
+    Hvilket team underviser du på?
 
-	Kopier af skemaer for elever?
+    Hvor længe har personen arbejdet som lærer?
+
+    Hvilke pædagogiske overvejelser mener du at man burde gøre sig under skemalægningen?
+
+    Hvordan ønsker du at tiden på skolen bruges (hvornår forberedelse og hvornår undervisning)
+        Hvor meget forberedelses tid føler du er nødvendigt?
+        Kolleger?
+
+    Kopier af skemaer?
+
+    Kopier af skemaer for elever?
 
     Er du tilfreds med dit nuværende skema?
 
-	Hvor mange klasser er du lærer for?
+    Hvor mange klasser er du lærer for?
 
-	Hvordan mener du at skemalægningen kan forbedres?
+    Hvordan mener du at skemalægningen kan forbedres?
 
     Hvis vi laver systemet, hvilke parametre synes I så at vi skal tage højde for?
 
@@ -60,17 +70,17 @@ Til lærer:
 
 Mail:
     Oplysninger om skolen:
-	Størrelse
-	Klasser
-	Lærere
-	Elever
-	Lokaler
-	Speciallokaer
-		Fysik/kemi
-		Idrætsområde
-		Billedkunst
-		Sløjd
-		Musik
-		Hjemkundskab
-		Håndarbejde
-	Valgfag, hvilke har I?
+    Størrelse
+    Klasser
+    Lærere
+    Elever
+    Lokaler
+    Speciallokaler
+        Fysik/kemi
+        Idrætsområde
+        Billedkunst
+        Sløjd
+        Musik
+        Hjemkundskab
+        Håndarbejde
+    Valgfag, hvilke har I?
