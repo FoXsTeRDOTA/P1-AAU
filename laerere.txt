@@ -1,33 +1,33 @@
-AB	Anne Aagaard Bech				Lærer
-AR	Anne Ravn						Lærer / trivselsperson
-CC	Charlotte Harbo Christiansen	Lærer
-CM	Charlotte Mortensen				Lærer
-CV	Charlotte Vestergaard			Lærer
-EH	Elena Hagerup					lærer
-GS	Gudrun Stefansson				Lærer
-HH	Henrik Borup Hansen				Lærer
-IC	Ingrid Cecilie Rold Clausen		Børnehaveklasseleder
-JE	Jane Elgaard Hansen				Lærer
-JF	Jesper Foldberg Nielsen			Lærer
-JK	Jan Kjelstrup					lærer
-JT	Jakob Toft						Lærer
-KG	Kirsten Gram Skjoldager			Lærer
-KM	Michael Koch-Mikkelsen			Lærer
-KN	Kresten Møller Nielsen			lærer
-LB	Lotte Leegaard Birkholm			Lærer
-LE	Line Ebdrup Pedersen			Lærer
-LH	Laila Holdt						lærer
-LP	Lisbeth Larsen Pedersen			Lærer
-MA	Marianne Hareide Andreasen		Lærer
-MI	Michael Derlev Harbo			Lærer
-MK	Merete Bruun Kristiansen		Lærer
-NH	Nynne Høyrup					Lærer
-PV	Pernille Degner Voldby			Lærer
-RB	Randi Bach						Lærer og inklusionsvejleder
-SB	Susanne Frost Borgen			Lærer
-SH	Sarah Hove						Lærer
-SP	Sanne Levin Pedersen			Lærer
-ST	Stine Laura Kjeldsen			lærer
-SØ	Søren Knutzen					Børnehaveklasseleder
-TP	Tommy Petersen					Lærer
-TR	Trine Thorst Rottbøll			Lærer
+AB  Anne Aagaard Bech               Lærer
+AR  Anne Ravn                       Lærer / trivselsperson
+CC  Charlotte Harbo Christiansen    Lærer
+CM  Charlotte Mortensen             Lærer
+CV  Charlotte Vestergaard           Lærer
+EH  Elena Hagerup                   lærer
+GS  Gudrun Stefansson               Lærer
+HH  Henrik Borup Hansen             Lærer
+IC  Ingrid Cecilie Rold Clausen     Børnehaveklasseleder
+JE  Jane Elgaard Hansen             Lærer
+JF  Jesper Foldberg Nielsen         Lærer
+JK  Jan Kjelstrup                   lærer
+JT  Jakob Toft                      Lærer
+KG  Kirsten Gram Skjoldager         Lærer
+KM  Michael Koch-Mikkelsen          Lærer
+KN  Kresten Møller Nielsen          lærer
+LB  Lotte Leegaard Birkholm         Lærer
+LE  Line Ebdrup Pedersen            Lærer
+LH  Laila Holdt                     lærer
+LP  Lisbeth Larsen Pedersen         Lærer
+MA  Marianne Hareide Andreasen      Lærer
+MI  Michael Derlev Harbo            Lærer
+MK  Merete Bruun Kristiansen        Lærer
+NH  Nynne Høyrup                    Lærer
+PV  Pernille Degner Voldby          Lærer
+RB  Randi Bach                      Lærer og inklusionsvejleder
+SB  Susanne Frost Borgen            Lærer
+SH  Sarah Hove                      Lærer
+SP  Sanne Levin Pedersen            Lærer
+ST  Stine Laura Kjeldsen            lærer
+SØ  Søren Knutzen                   Børnehaveklasseleder
+TP  Tommy Petersen                  Lærer
+TR  Trine Thorst Rottbøll           Lærer
