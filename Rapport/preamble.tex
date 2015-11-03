@@ -15,7 +15,9 @@
 \usepackage[labelfont=bf]{caption}
 \renewcommand{\figurename}{\textbf{Figur}}
 \renewcommand{\contentsname}{Indholdfortegnelse}
-\renewcommand{\refname}{Referencer}
+\usepackage[nottoc,notlof,notlot]{tocbibind} 
+\renewcommand\bibname{Referencer}
+
 
 \makeatletter
 \newdimen\@myBoxHeight%
