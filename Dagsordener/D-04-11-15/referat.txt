@@ -1,0 +1,34 @@
+- ret fornuftigt..
+
+             (ganske kort)
+                   v
+interessenter : elever & lærere
+mangler lidt med ikke kun kreative og/eller boglige fag om dagen..
+
+underoverskrifter
+
+utrolig vigtigt vi får de specifikke pædagogiske overvejelser eftersom de er en del af problemformuleringen
+anden mulighed: vikarerne
+eller system der kan sikre, at alle 60 personer kan være med i skemaprocessen
+
+ang. model:
+   structs i C der definerer skemaet, lærerne, fagene osv.
+   modellering - forskellige moduler i programmet.
+   model over problemformuleringen
+   
+design afsnit:
+   hvad vil vi lave helt præcist
+   
+ang. metodeafsnit:
+   hvordan refererer vi til kilderne osv.
+   interview-teknikken.
+   et afsnit for sig selv i starten
+   (betyder ikke umiddelbart så meget - men spørg Søren)
+   
+state of the art afsnit:
+   lidt om genetiske algoritmer hvad det er osv. bare overordnet. hvordan fungerer det.
+   "brute force"
+   mere specifikt om genetisk algoritmer i teoriafsnittet
+   
+nævn untis
+   

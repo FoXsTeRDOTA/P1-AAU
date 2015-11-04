@@ -1,0 +1,19 @@
+\subsubsection{Brute Force}
+Vi vil nu undersøge nogle af de teknologier, som et program kunne benytte sig af for at finde frem til et skema. Den mest systematiske løsning, og måske den løsning der er nemmest af gå til, er brute force-metoden. Brute force går som navnet antyder ud på at bruge rå kraft for at finde løsningen. Måden dette gøres på i en computer, er ved at prøve samtlige muligheder, indtil man når det ønskede resultat\cite{BruteForce}.
+
+I forhold til skemalægning, ville man altså forsøge samtlige sammensætninger af moduler i løbet af ugen, for alle klasse. For at undersøge om dette ville virke, kan vi regne ud hvor mange skemaer et program maksimalt ville skulle teste.
+
+$$ (\text{UgentligeModuler})! \times \text{AntalKlasser} = \text{AntalSkemaer}$$
+
+Hvis vi indsætter informationer fra Kærbyskolen som har 12 klasser og 10 lektioner om dagen får vi følgende antal skemaer:
+$$ (10\cdot 5)! \cdot 12 = 3,65\cdot 10^{65} $$
+
+Som det kan ses ud fra det enorme tal vi lige har regnet ud, er det umuligt at tjekke samtlige skemaer, for at finde det bedste, og man må derfor nøjes med at finde de første $n$ skemaer ved hjælp af bruteforce. Da man som regel kun ændrer \'en ting af gangen når man brute-forcer, kunne disse $n$ skemaer dog komme til at ligne hinanden meget, og man får ikke stor variation i skemaet.
+
+\subsubsection{Heuristisk metode}
+Ordet heuristisk bliver i ordbogen defineret som ``vedr. erkendelse af ny viden, opnået fx ved systematisk søgning efter information eller afprøvning af muligheder''\cite{Ordnet}.
+
+\subsubsection{Monte Carlo / Las Vegas}
+
+
+\subsubsection{Genetiske algoritmer}
