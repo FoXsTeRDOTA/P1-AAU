@@ -3,17 +3,31 @@ Vi vil nu undersøge nogle af de teknologier, som et program kunne benytte sig a
 
 I forhold til skemalægning, ville man altså forsøge samtlige sammensætninger af moduler i løbet af ugen, for alle klasse. For at undersøge om dette ville virke, kan vi regne ud hvor mange skemaer et program maksimalt ville skulle teste.
 
-$$ (\text{UgentligeModuler})! \times \text{AntalKlasser} = \text{AntalSkemaer}$$
+$$ \frac{(\text{Ugentlige moduler} \times \text{Samtidige moduler})!}{(\text{Ugentlige moduler} \times \text{Samtidige moduler} - \text{Forskellige moduler})!} $$
 
-Hvis vi indsætter informationer fra Kærbyskolen som har 12 klasser og 10 lektioner om dagen får vi følgende antal skemaer:
-$$ (10\cdot 5)! \cdot 12 = 3,65\cdot 10^{65} $$
+Hvis vi indsætter informationer fra Kærbyskolen som har 12 normale klasser og 10 lektioner om dagen får vi følgende antal skemaer:
+$$ \frac{(40 \cdot 14)!}{(40 \cdot 14 - 392)} \approx 2,909\cdot 10^{1008} $$
 
 Som det kan ses ud fra det enorme tal vi lige har regnet ud, er det umuligt at tjekke samtlige skemaer, for at finde det bedste, og man må derfor nøjes med at finde de første $n$ skemaer ved hjælp af bruteforce. Da man som regel kun ændrer \'en ting af gangen når man brute-forcer, kunne disse $n$ skemaer dog komme til at ligne hinanden meget, og man får ikke stor variation i skemaet.
 
 \subsubsection{Heuristisk metode}
-Ordet heuristisk bliver i ordbogen defineret som ``vedr. erkendelse af ny viden, opnået fx ved systematisk søgning efter information eller afprøvning af muligheder''\cite{Ordnet}.
+Ordet heuristisk bliver i ordbogen defineret som ``vedr. erkendelse af ny viden, opnået fx ved systematisk søgning efter information eller afprøvning af muligheder''\cite{Ordnet}. Denne tilgang til et problem, er en anden måde at se skemalægningsopgaven på, og dette er netop hvad Untis har gjort\cite[s.~27]{UntisBeskrivelse}. Untis fungerer nemlig på en rekursiv måde. I første gang programmet en række moduler der skal placeres på skemaet, programmet undersøger da hvilket modul der er mest problematisk at placere, og placerer dette modul først. Derefter gentager den samme process med de resterende moduler. Dermed sikrer den sig at den til sidst ikke står tilbage med et modul med mange begrænsninger der bliver svært at placere på skemaet. 
 
-\subsubsection{Monte Carlo / Las Vegas}
+Hvis skemaet alligevel ikke kan løses på denne måde, begynder programmet at arbejde efter den heuristiske metode. Den går et par skridt tilbage i sin opgave, og forsøger at flytte rundt på nogle af de allerede placerede moduler, for at kunne sætte resten.
 
+Først når alle moduler er placeret, starter optimeringsopgaven. Untis vurderer hvert skema ud fra de kriterier brugeren har opstillet, og for hvert punkt den ikke kan opfylde, får programmet straf-point. Hvis den ved hjælp af en omflytning mellem to moduler kan 
 
-\subsubsection{Genetiske algoritmer}
+\subsubsection{Monte Carlo \& Las Vegas}
+Når vi snakker om Monte Carlo algoritmer, snakker vi om algoritmer der bruger tilfældighed til at opnå deres resultater\cite{mcbook}. Ved hjælp af tilfældige inputs til sine opstillede algoritmer, kan man estimere sig til et resultat, som vil ligge meget tæt på det rigtige. Et eksempel på dette er en algoritme til at estimere $\pi$\cite{MontePi}. Ved at generere tilfældige punkter i kvadratet $[0,1] \times [0,1]$ kan vi ved at finde forholdet mellem punkterne der ligger inden for enhedscirklen og punkterne der ligge udenfor. Ved at bruge formlen
+\begin{equation}
+	\label{piApprox}
+	p \cdot 4 \approx \pi
+\end{equation}
+hvor 
+$$p = \frac{\text{Antallet af punkter i enhedcirklen}}{\text{Antallet af punkter placeret}}$$
+
+Som det kan ses ud fra formel \ref{piApprox}, vil resultatet blive mere og mere præcist, jo mere præcis $p$ er. Altså bliver formlen mere præcis, jo flere tilfældige værdier vi bruger, og dermed jo længere programmet kører.
+
+En variant af Monte Carlo algoritmen er Las Vegas. Forskellen mellem de to er, at mens Monte Carlo algoritmen bliver mere præcis med tiden, og dermed ikke nødvendigvis giver det helt korrekte svar, giver Las Vegas algoritmen altid et korrekt svar, eller slet intet svar. Det vil sige at ved Las Vegas-metoden, vides det ikke nødvendigvis på forhånd hvor længe programmet skal køre. Dog ved vi at lige så snart algoritmen giver et svar, er svaret korrekt.
+
+Denne Las Vegas metode bruges af nogle skemalægningsprogrammer, til at generere skemaer. Fordelen er, at lige så snart programmet returnerer et skema, kan man være sikker på at skemaet opfylder alle opsatte krav til skemaet.
