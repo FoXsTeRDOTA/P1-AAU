@@ -7,6 +7,7 @@ indledning:
 	Motivation til at arbejde med emnet fra skolereformen 
 	Initierende problem
 Problemanalysen:
+	Skemalægning genrelt ("En person bruger lang tid på det her, blablabla"
 	Beskrivelse af skolereformen og dens betydning
 	Lovgivning og regler for skemalægning
 	Interessenter (hvem skal vi snakke med?)
@@ -14,6 +15,7 @@ Problemanalysen:
 	Beskrivelse af cases og interviews (her snakker vi med dem)
 		Adskil lærere og skemaplanlæggere
 	Brugerovervejelser
+			Teori om brugervenlige systemer
 	State of the art (nuværende systemer) - udland?
 Afgrænsning
 Problemformulering
