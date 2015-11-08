@@ -1,4 +1,6 @@
 \subsection{Løsningsstrategi}
+For at hjælpe skemalæggeren med at lægge pædagogiske skemaer, vil vi lave et program som automatisk kan lægge skemaer, med vægt på pædagogiske overvejelser.
+
 Vi vil i vores projekt tage en anden tilgang til problemløsningen end de andre software-produkter, vi undersøgte i afsnit \ref{sota}. Vi vil i stedet gøre som naturen gør og bruge evolution til at udvikle vores skemaer; noget som genetiske algoritmer er optimale til.
 
 Opbygningen af programmet bliver derfor følgende: Vi har en genpulje hvori ``DNA'et'' for hver enkelt skema ligger. Vi vil så hele tiden forsøge at udvikle de bedste i vore genpulje til at blive bedre, mens resten, den svage del, uddør. Ved at ``dræbe'' de dårlige skemaer, sikrer vi os, at vi hele tiden har en genpulje af en fast størrelse. Måden hvorpå vi vil udvikle de bedste, er ved at lave de dårlige DNA-strenge om til de gode DNA-strenge, dog med få ændringer, mens vi lader de gode DNA-strenge overleve. Flowet i programmet er illustreret på figur \ref{fig:loesningsdiagram}.
