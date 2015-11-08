@@ -5,7 +5,7 @@ I forhold til skemalægning, ville man altså forsøge samtlige sammensætninger
 
 $$ \frac{(\text{Ugentlige moduler} \times \text{Samtidige moduler})!}{(\text{Ugentlige moduler} \times \text{Samtidige moduler} - \text{Forskellige moduler})!} $$
 
-Hvis vi indsætter informationer fra Kærbyskolen som har 12 normale klasser og 10 lektioner om dagen får vi følgende antal skemaer:
+Hvis vi indsætter informationer fra Kærbyskolen som har 14 normale klasser og 10 lektioner om dagen får vi følgende antal skemaer:
 $$ \frac{(40 \cdot 14)!}{(40 \cdot 14 - 392)} \approx 2,909\cdot 10^{1008} $$
 
 Som det kan ses ud fra det enorme tal vi lige har regnet ud, er det umuligt at tjekke samtlige skemaer, for at finde det bedste, og man må derfor nøjes med at finde de første $n$ skemaer ved hjælp af bruteforce. Da man som regel kun ændrer \'en ting af gangen når man brute-forcer, kunne disse $n$ skemaer dog komme til at ligne hinanden meget, og man får ikke stor variation i skemaet.
