@@ -18,12 +18,12 @@ Hvis skemaet alligevel ikke kan løses på denne måde, begynder programmet at a
 Først når alle moduler er placeret, starter optimeringsopgaven. Untis vurderer hvert skema ud fra de kriterier brugeren har opstillet, og for hvert punkt den ikke kan opfylde, får programmet straf-point. Hvis den ved hjælp af en omflytning mellem to moduler kan 
 
 \subsubsection{Monte Carlo \& Las Vegas}
-Når vi snakker om Monte Carlo algoritmer, snakker vi om algoritmer der bruger tilfældighed til at opnå deres resultater\cite{mcbook}. Ved hjælp af tilfældige inputs til sine opstillede algoritmer, kan man estimere sig til et resultat, som vil ligge meget tæt på det rigtige. Et eksempel på dette er en algoritme til at estimere $\pi$\cite{MontePi}. Ved at generere tilfældige punkter i kvadratet $[0,1] \times [0,1]$ kan vi ved at finde forholdet mellem punkterne der ligger inden for enhedscirklen og punkterne der ligge udenfor. Ved at bruge formlen
+Når vi snakker om Monte Carlo algoritmer, snakker vi om algoritmer der bruger tilfældighed til at opnå deres resultater\cite{mcbook}. Ved hjælp af tilfældige inputs til sine opstillede algoritmer, kan man estimere sig til et resultat, som vil ligge meget tæt på det rigtige. Et eksempel på dette er en algoritme til at estimere $\pi$\cite{MontePi}. Ved at generere tilfældige punkter i kvadratet $[0,1] \times [0,1]$ kan vi ved at finde forholdet mellem punkterne der ligger inden for enhedscirklen og punkterne der ligger udenfor. Ved at bruge formlen:
 \begin{equation}
 	\label{piApprox}
 	p \cdot 4 \approx \pi
 \end{equation}
-hvor 
+hvor:
 $$p = \frac{\text{Antallet af punkter i enhedcirklen}}{\text{Antallet af punkter placeret}}$$
 
 Som det kan ses ud fra formel \ref{piApprox}, vil resultatet blive mere og mere præcist, jo mere præcis $p$ er. Altså bliver formlen mere præcis, jo flere tilfældige værdier vi bruger, og dermed jo længere programmet kører.
